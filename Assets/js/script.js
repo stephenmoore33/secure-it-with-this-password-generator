@@ -16,34 +16,31 @@ var lowerCase = letters.map(letters => letters.toLowerCase());
 function generatePassword() {
 
   var charLength = prompt("How many characters would you like this password to be? Choose between 8-128 characters");
-  if (charLength<8 || charLength > 128) {
-    alert("Invalid amount of characters. Your password must be between 8-128 characters.")
-  } else {
-    alert(charLength)
-  }
+  while (charLength < 8 || charLength > 128) { // while loop will continiously loop until condition is met (within character limit)
+    alert("Invalid amount of characters. Your password must be between 8-128 characters.");
+    var charLength = prompt("How many characters would you like this password to be? Choose between 8-128 characters");
 
+  } 
+  var specialCharQuestion = confirm("Would you like your password to have special characters?");
+  var lowerLetterQuestion = confirm("Would you like your password to have lower-case characters?");
+  var capitalLetterQuestion = confirm("Would you like your password to have capital characters?");
+  var numberQuestion = confirm("Would you like your password to have numbers?");
 }
 
 
-  // Write password to the #password input
-  function writePassword() {
-    var password = generatePassword();
-    var passwordText = document.querySelector("#password");
 
-    //call function to prompt users and generate password
 
-    passwordText.value = password;
 
-  }
+// Write password to the #password input
+function writePassword() {
+  var password = generatePassword();
+  var passwordText = document.querySelector("#password");
+
+  //call function to prompt users and generate password
+
+  passwordText.value = password;
+
+}
 
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
-
-//make a function to generate a password
-
-
-/*
-
-
-
-*/
