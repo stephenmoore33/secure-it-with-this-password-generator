@@ -13,9 +13,16 @@ var upperCase = letters.map(letters => letters.toUpperCase());
 var lowerCase = letters.map(letters => letters.toLowerCase());
 
 //code here
+function generatePassword() {
 
+  var charLength = prompt("How many characters would you like this password to be? Choose between 8-128 characters");
+  if (charLength<8 || charLength > 128) {
+    alert("Invalid amount of characters. Your password must be between 8-128 characters.")
+  } else {
+    alert(charLength)
+  }
 
-
+}
 
 
   // Write password to the #password input
