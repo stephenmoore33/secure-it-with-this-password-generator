@@ -21,14 +21,16 @@ This repository will give you a series of prompts. Requesting how many character
 ## Sources
 - [Statista for study](https://www.statista.com/statistics/763091/us-use-of-same-online-passwords/)
 - [BitWarden for Password Manager](https://bitwarden.com)
--
+- [Check to see if you've been involved in a data breach](https://haveibeenpwned.com)
 
 
 
 
-**Website:**
-[https://stephenmoore33.github.io/secure-it-with-this-password-generator]
+
 
 **Social Links**
 - [GitHub](https://github.com/stephenmoore33)
 - [LinkedIn](https://www.linkedin.com/in/smoore320/)
+
+**Website:**
+[https://stephenmoore33.github.io/secure-it-with-this-password-generator]
