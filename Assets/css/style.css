@@ -21,6 +21,7 @@ body,
   height: 100%;
   margin: 0;
   padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
@@ -39,14 +40,14 @@ header {
   padding: 20px;
   padding-top: 0px;
   color: var(--header);
+  font-size: large;
 }
 
 .card {
   background-color: hsl(0, 0%, 100%);
   border-radius: 5px;
   border-width: 1px;
-  box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px 0px;
-  /* color: hsl(206, 17%, 28%); */
+  box-shadow: var(--header) 0px 2px 8px 0px;
   color: var(--header);
   font-size: 18px;
   margin: 0 auto;
@@ -140,7 +141,7 @@ button[disabled] {
   text-align: center;
   margin-top: 10px;
   margin-bottom: 10px;
-  border: 2px dashed #c0c7cf;
+  border: 2px dashed var(--header);
   border-radius: 6px;
   resize: none;
   overflow: hidden;
