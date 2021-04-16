@@ -22,7 +22,7 @@ This repository will give you a series of prompts. Requesting how many character
 - [Statista for study](https://www.statista.com/statistics/763091/us-use-of-same-online-passwords/)
 - [BitWarden for Password Manager](https://bitwarden.com)
 - [Check to see if you've been involved in a data breach](https://haveibeenpwned.com)
-
+- [HTML Color Codes](https://htmlcolorcodes.com/color-picker/)
 
 
 
