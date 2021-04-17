@@ -12,7 +12,11 @@ I have a solution. When changing a password, or creating a new account you can u
 Then, so you won't forget, store your login in a secure open-source password manager, like [BitWarden](https://bitwarden.com).
 
 ## About this Repo
-This repository will give you a series of prompts. Requesting how many characters in length you'd prefer your password to be (8 to 256), if you need special characters, upper case letters, and lowercase letters. Then the generator will automatically load your password on screen to copy and paste. 
+This repository will give you a series of prompts. Requesting how many characters in length you'd prefer your password to be (8 to 128), if you need special characters, upper case letters, and lowercase letters. Then the generator will automatically load your password on screen to copy and paste. 
+
+This was a homework assignment that was assigned in my full stack web development bootcamp at Michigan State University.
+
+It started out overwhelming and unsure where to begin, but as I progressed it became easier and more enjoyable to complete. Feel free to view my other repos and connect with me on LinkedIn or Email me if you have any questions or feedback.
 
 ## Table of Contents
 - Index
@@ -20,22 +24,22 @@ This repository will give you a series of prompts. Requesting how many character
 **Main page to password generator**
 ![Home page](assets/images/1.png)
 
-**Main page to password generator**
+**Prompt 1: asks the length of characters**
 ![Prompt #1](assets/images/2.png)
 
-**Main page to password generator**
+**Prompt 2: asks if special characters are needed**
 ![Prompt #2](assets/images/3.png)
 
-**Main page to password generator**
+**Prompt 3: asks if lowercase letters are needed**
 ![Prompt #3](assets/images/4.png)
 
-**Main page to password generator**
+**Prompt 4: asks if uppercase letters are needed**
 ![Prompt #4](assets/images/5.png)
 
-**Main page to password generator**
+**Prompt 5: asks if numberd are needed**
 ![Prompt #5](assets/images/6.png)
 
-**Main page to password generator**
+**End result of the password generator based off of user input**
 ![End Result](assets/images/7.png)
 
 ## Sources
