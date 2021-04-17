@@ -17,20 +17,42 @@ This repository will give you a series of prompts. Requesting how many character
 ## Table of Contents
 - Index
 
+**Main page to password generator**
+![Home page](/assets/images/1.png)
+
+**Main page to password generator**
+![Prompt #1](/assets/images/2.png)
+
+**Main page to password generator**
+![Prompt #2](/assets/images/3.png)
+
+**Main page to password generator**
+![Prompt #3](/assets/images/4.png)
+
+**Main page to password generator**
+![Prompt #4](/assets/images/5.png)
+
+**Main page to password generator**
+![Prompt #5](/assets/images/6.png)
+
+**Main page to password generator**
+![End Result](/assets/images/7.png)
 
 ## Sources
 - [Statista for study](https://www.statista.com/statistics/763091/us-use-of-same-online-passwords/)
 - [BitWarden for Password Manager](https://bitwarden.com)
 - [Check to see if you've been involved in a data breach](https://haveibeenpwned.com)
 - [HTML Color Codes](https://htmlcolorcodes.com/color-picker/)
-
-
+- [W3 Schools](https://www.w3schools.com)
+- [MDN](https://developer.mozilla.org/en-US/)
+- [StackOverflow](https://stackoverflow.com)
 
 
 
 **Social Links**
 - [GitHub](https://github.com/stephenmoore33)
 - [LinkedIn](https://www.linkedin.com/in/smoore320/)
+- [Email](mailto:stephenmoore33@outlook.com)
 
 **Website:**
 [https://stephenmoore33.github.io/secure-it-with-this-password-generator]

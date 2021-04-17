@@ -5,10 +5,10 @@ var generateBtn = document.querySelector("#generate");
 
 //array of options to randomize
 var numbers = (1, 2, 3, 4, 5, 6, 7, 8, 9, 0);
-var letters = [ "a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z" ];
-var symbols = ["!","@","#","$","%","^","&","*","(",")","-","_","+","=","[","{","]","}","|",":",";","'","<",",",".","/","?"];
-var upperCase = letters.map(letters => letters.toUpperCase());
-var lowerCase = letters.map(letters => letters.toLowerCase());
+var letters = [ "abcdefghijklmnopqrstuvwxyz" ];
+var symbols = [ "!", "@", "#", "$", "%", "^", "&", "*", "(", ")", "-", "_", "+", "=", "[", "{", "]", "}", "|", ":", ";", "<", ",", ".", "/", "?" ];
+var upperCase = String.prototype.toUpperCase.apply(letters).split("");
+var lowerCase = String.prototype.toLowerCase.apply(letters).split("");
 
 
 function generatePassword() {
@@ -27,7 +27,7 @@ function generatePassword() {
   var numberQuestion = confirm("Would you like your password to have numbers?");
 
 
-//if all false, then repeat
+  //if all false, then repeat
   while (specialCharQuestion === false && lowerLetterQuestion === false && capitalLetterQuestion === false && numberQuestion === false) {
     alert("Your password must contain at least 1 special character, lower case letter, uppercase letter, or one number.");
     var specialCharQuestion = confirm("Would you like your password to have special characters?");
@@ -37,37 +37,33 @@ function generatePassword() {
   }
 
   var passwordCriteria = []; //concats details based on selection
-//inputs characters based off user response
+  //inputs characters based off user response
   if (specialCharQuestion) {
-    passwordCriteria= `${passwordCriteria}${specialCharQuestion}`
+    passwordCriteria = passwordCriteria.concat(symbols)
   }
-  
+
   if (lowerLetterQuestion) {
-    passwordCriteria= `${passwordCriteria}${lowerLetterQuestion}`
+    passwordCriteria = passwordCriteria.concat(lowerCase)
   }
   if (capitalLetterQuestion) {
-    passwordCriteria= `${passwordCriteria}${capitalLetterQuestion}`
+    passwordCriteria = passwordCriteria.concat(upperCase)
   }
   if (numberQuestion) {
-    passwordCriteria= `${passwordCriteria}${numberQuestion}`
+    passwordCriteria = passwordCriteria.concat(numbers)
+  };
+
+
+  console.log(passwordCriteria)
+  
+
+  //allows password to randomize based off of user input
+  var randomizePassword = ""
+
+  for (var i = 0; i < charLength; i++) {
+    randomizePassword = randomizePassword + passwordCriteria[ Math.floor(Math.random() * passwordCriteria.length) ];
+    console.log(randomizePassword);
   }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  return randomizePassword;
 }
 
 
