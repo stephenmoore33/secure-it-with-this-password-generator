@@ -18,25 +18,25 @@ This repository will give you a series of prompts. Requesting how many character
 - Index
 
 **Main page to password generator**
-![Home page](/assets/images/1.png)
+![Home page](assets/images/1.png)
 
 **Main page to password generator**
-![Prompt #1](/assets/images/2.png)
+![Prompt #1](assets/images/2.png)
 
 **Main page to password generator**
-![Prompt #2](/assets/images/3.png)
+![Prompt #2](assets/images/3.png)
 
 **Main page to password generator**
-![Prompt #3](/assets/images/4.png)
+![Prompt #3](assets/images/4.png)
 
 **Main page to password generator**
-![Prompt #4](/assets/images/5.png)
+![Prompt #4](assets/images/5.png)
 
 **Main page to password generator**
-![Prompt #5](/assets/images/6.png)
+![Prompt #5](assets/images/6.png)
 
 **Main page to password generator**
-![End Result](/assets/images/7.png)
+![End Result](assets/images/7.png)
 
 ## Sources
 - [Statista for study](https://www.statista.com/statistics/763091/us-use-of-same-online-passwords/)
