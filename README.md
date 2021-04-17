@@ -23,31 +23,31 @@ It started out overwhelming and unsure where to begin, but as I progressed it be
 
 **Main page to password generator**
 
-![Home page](assets/images/1.png)
+![Home page](/assets/images/1.png)
 
 **Prompt 1: asks the length of characters**
 
-![Prompt #1](assets/images/2.png)
+![Prompt #1](/assets/images/2.png)
 
 **Prompt 2: asks if special characters are needed**
 
-![Prompt #2](assets/images/3.png)
+![Prompt #2](/assets/images/3.png)
 
 **Prompt 3: asks if lowercase letters are needed**
 
-![Prompt #3](assets/images/4.png)
+![Prompt #3](/assets/images/4.png)
 
 **Prompt 4: asks if uppercase letters are needed**
 
-![Prompt #4](assets/images/5.png)
+![Prompt #4](/assets/images/5.png)
 
 **Prompt 5: asks if numberd are needed**
 
-![Prompt #5](assets/images/6.png)
+![Prompt #5](/assets/images/6.png)
 
 **End result of the password generator based off of user input**
 
-![End Result](assets/images/7.png)
+![End Result](/assets/images/7.png)
 
 ## Sources
 - [Statista for study](https://www.statista.com/statistics/763091/us-use-of-same-online-passwords/)
