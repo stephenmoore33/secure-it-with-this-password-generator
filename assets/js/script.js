@@ -3,7 +3,7 @@ var generateBtn = document.querySelector("#generate");
 
 
 //array of options to randomize
-var numbers = (1, 2, 3, 4, 5, 6, 7, 8, 9, 0);
+var numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 0];
 var letters = [ "abcdefghijklmnopqrstuvwxyz" ];
 var symbols = [ "!", "@", "#", "$", "%", "^", "&", "*", "(", ")", "-", "_", "+", "=", "[", "{", "]", "}", "|", ":", ";", "<", ",", ".", "/", "?" ];
 var upperCase = String.prototype.toUpperCase.apply(letters).split("");
